@@ -73,8 +73,8 @@ def main():
     model, tokenizer = load_model()
     print("load model end.")
 
-    user_avator = "doc/imgs/user.png"
-    robot_avator = "doc/imgs/robot.png"
+    user_avator = "/home/xlab-app-center/code/InternLM_Lite/imgs/user.png"
+    robot_avator = "/home/xlab-app-center/code/InternLM_Lite/imgs/robot.png"
 
     st.title("InternLM-Chat-7B")
 
