@@ -1,0 +1,5 @@
+torch==2.1.1
+transformers==4.34.0
+transformers-stream-generator=0.0.4
+streamlit==1.24.0
+openxlab

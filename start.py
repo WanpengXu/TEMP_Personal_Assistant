@@ -1,3 +1,13 @@
+import os
+
+# python 环境配置
+os.system('cd ~')
+os.system('mkdir -p download/xtuner019 && cd download/xtuner019')
+os.system('git clone -b v0.1.9 https://gitee.com/Internlm/xtuner')
+os.system('cd xtuner')
+os.system("pip install -e '.[all]'")
+
+
 # OpenXLab 环境配置
 
 # 导入基座模型
