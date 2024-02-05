@@ -1,7 +1,7 @@
 import os
 
 # python 环境配置
-os.chdir('~')
+os.chdir('/home/xlab-app-center')
 os.system('mkdir -p download/xtuner019')
 os.chdir('download/xtuner019')
 os.system('git clone -b v0.1.9 https://gitee.com/Internlm/xtuner')
@@ -28,6 +28,6 @@ xtuner convert merge \
 os.system('pwd')
 os.system('ls')
 # os.system('cd /home/xlab-app-center/code/InternLM_Lite')
-os.chdir('~/code/InternLM_Lite')
+os.chdir('/home/xlab-app-center/code/InternLM_Lite')
 os.system('ls')
 os.system('streamlit run web_demo.py --server.address=0.0.0.0 --server.port 7860')
