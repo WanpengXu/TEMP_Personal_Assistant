@@ -26,6 +26,7 @@ xtuner convert merge \
 # run
 os.system('pwd')
 os.system('ls')
-# os.system('cd ~/InternLM_Lite')
-os.system('cd /home/xlab-app-center/InternLM_Lite')
-os.system('streamlit run ~/InternLM_Lite/web_demo.py --server.address=0.0.0.0 --server.port 7860')
+# os.system('cd ~/code/InternLM_Lite')
+os.system('cd /home/xlab-app-center/code/InternLM_Lite')
+os.system('ls')
+os.system('streamlit run ~/code/InternLM_Lite/web_demo.py --server.address=0.0.0.0 --server.port 7860')
