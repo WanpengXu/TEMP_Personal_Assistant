@@ -25,9 +25,22 @@ xtuner convert merge \
 ''')
 
 # run
+os.chdir('/home/xlab-app-center/model/')
+print('----')
 os.system('pwd')
 os.system('ls')
+print('----')
+
+os.chdir('/home/xlab-app-center/model/pa_merged')
+print('----')
+os.system('pwd')
+os.system('ls')
+print('----')
+
 # os.system('cd /home/xlab-app-center/code/InternLM_Lite')
 os.chdir('/home/xlab-app-center/code/InternLM_Lite')
+print('----')
+os.system('pwd')
 os.system('ls')
+print('----')
 os.system('streamlit run web_demo.py --server.address=0.0.0.0 --server.port 7860')
